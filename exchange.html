@@ -1,71 +1,132 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Programs I Joined | Lana</title> 
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Programs I have joined</h1>
-            <p>Summary of what I did and achievments since univerity.</p>
-            <img src="image/pf.jpg" width="20%">
 
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me :)</a>
-                <a href="work.html">Work Experience</a>
-                <a href="exchange.html">Programs I Joined</a>
-                <a href="education.html">Education</a>
-                <a href="contact.html">Contact Info</a>
-            </nav>
-        </header>
-        <main>
-            <section>
+<head>
+    <title>Programs I Joined | Lana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #fdf6f0;
+            /* soft beige */
+            --text-color: #4b3f39;
+            /* warm brown-gray */
+            --accent-color: #f8c8c4;
+            /* soft pastel pink */
+            --link-color: #d48c86;
+            /* dusty rose */
+            --font-family: 'Georgia', serif;
+            --font-weight: bold;
+        }
+
+        .text-color-pr {
+            color: var(--link-color);
+
+            .text-bold {
+                font-weight: var(--font-weight)
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Programs I have joined</h1>
+        <p>Summary of what I did and achievments since univerity.</p>
+        <img src="image/pf.jpg" width="20%">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me :)</a>
+            <a href="work.html">Work Experience</a>
+            <a href="exchange.html">Programs I Joined</a>
+            <a href="education.html">Education</a>
+            <a href="contact.html">Contact Info</a>
+        </nav>
+    </header>
+    <main>
+        <section class="row">
+            <div>
+                <h2>Seminar for Young Leader Growth Program</h2>
+                <h3>Cambodia Representative</h3>
+                <p>Attended the two weeks exchange program in Guangxi Autonomous region, of China.</p>
+            </div>
+            <div class="row"">
+                <div class="col-md-6"><img class="img-fluid" src="image/ship-flag.png" width="100%"></div>
+            <div class="col-md-6"><img class="img-fluid" src="image/ship-indonesia.png" width="100%"></div>
+            </div>
+            <div>
+                <img class="float-end img-fluid" src="image/ship.png" width="100%", justify-content="center">
+            </div>
+        </section>
+
+
+        <section class="row">
+            <div>
                 <h2>The 48th Ship for Southeast Asia and Japanese Youth Program (SSEAYP)</h2>
                 <h3>PR & Finance Subcommittee</h3>
-                <p>The selected youths will participate onboard the ship in the 48th SSEAYP for 38 days in Japan, Vietnam, and Indonesia.</p>
-                <img src="image/ship.png" width="100%">
-                <img src="image/ship-flag.png" width="100%">
-                <img src="image/ship-indonesia.png" width="100%">
-                
-            </section>
+                <p>The selected youths will participate onboard the ship in the 48th SSEAYP for 38 days in Japan,
+                    Vietnam, and Indonesia.</p>
+            </div>
+            
+            <div class="row"">
+                <div class="col-md-6"><img class="img-fluid" src="image/ship-flag.png" width="100%"></div>
+            <div class="col-md-6"><img class="img-fluid" src="image/ship-indonesia.png" width="100%"></div>
+            </div>
+            <div>
+                <img class="float-end img-fluid" src="image/ship.png" width="100%", justify-content="center">
+            </div>
+        </section>
 
-            <section>
-                <h2>HEINEKEN Sustainathon - 2nd Edition</h2>
-                <h3>Top 10 Selected Team</h3>
-                <p>A hackathon to gather a pool of talents with bright minds to come together to crowdsource the ideas to solve complex issues of circularity in F&B industry or communities in Cambodia.
-                    The selected individuals are invited to join and formed the team with diverse background. Then, learn about the insight of HEINEKEN and other circularity of other fields in industry. </p>
-                <img src="image/heineken.png" width="100%">
-                </section>
+        <section>
+            <h2>HEINEKEN Sustainathon - 2nd Edition</h2>
+            <h3>Top 10 Selected Team</h3>
+            <p>A hackathon to gather a pool of talents with bright minds to come together to crowdsource the ideas to
+                solve complex issues of circularity in F&B industry or communities in Cambodia.
+                The selected individuals are invited to join and formed the team with diverse background. Then, learn
+                about the insight of HEINEKEN and other circularity of other fields in industry. </p>
+            <img src="image/heineken.png" width="100%">
+        </section>
 
-            <section>
-                <h2>DAKDAM IRA Hackathon, Impact Hub Phnom Penh</h2>
-                <h3>Top 3 Selected Team</h3>
-                <p>A hackathon to gather a pool of talents with bright minds to come together to crowdsource the ideas to solve complex issues of circularity in F&B industry or communities in Cambodia.
-                    The selected individuals are invited to join and formed the team with diverse background. Then, learn about the insight of HEINEKEN and other circularity of other fields in industry. </p>
-                <img src="image/dakdam.png" width="100%">
-                <img src="image/dakdam-winner.png" width="100%">
-            </section>
+        <section>
+            <h2>DAKDAM IRA Hackathon, Impact Hub Phnom Penh</h2>
+            <h3>Top 3 Selected Team</h3>
+            <p>A hackathon to gather a pool of talents with bright minds to come together to crowdsource the ideas to
+                solve complex issues of circularity in F&B industry or communities in Cambodia.
+                The selected individuals are invited to join and formed the team with diverse background. Then, learn
+                about the insight of HEINEKEN and other circularity of other fields in industry. </p>
+            <div class="row">
+                <div class="col-md-6"><img src="image/dakdam.png" width="100%"></div>
+                <div class="col-md-6"><img src="image/dakdam-winner.png" width="100%"></div>
+            </div>
+        </section>
 
-            <section>
-                <h2>SmartEdu UDSP - Cohort 5 & 4, Smart Axiata</h2>
-                <h3>Co-Leader, Alumni</h3>
-                <p>A 13 day intensive bootcamp where 48 students experience what it is like to work in the corporate world through different challenges and business simulations. Students also participated in various masterclasses and fun team-building activities.</p>
-                <img src="image/smartedu.png" width="100%">
-                <img src="image/smart-ceo.png" width="100%">
-                <img src="image/" width="20%">
-            </section>
+        <section>
+            <h2>SmartEdu UDSP - Cohort 5 & 4, Smart Axiata</h2>
+            <h3>Co-Leader, Alumni</h3>
+            <p>A 13 day intensive bootcamp where 48 students experience what it is like to work in the corporate world
+                through different challenges and business simulations. Students also participated in various
+                masterclasses and fun team-building activities.</p>
+            <img src="image/smartedu.png" width="100%">
+            <img src="image/smart-ceo.png" width="100%">
+            <img src="image/" width="20%">
+        </section>
 
-            <section>
-                <h2>Asia Pacific Youth Exchange 2023</h2>
-                <h3>Delegate</h3>
-                <p>A regional youth program that responds to the global need of actively engaging youth in localized SDGs initiatives: A two-day intensive leadership workshop, local Immersion: Teams work to enhance solutions for existing challenges based on the SDGs by simulating social business proposals and prototype-making. </p>
-                <img src="image/apye-ministry.png" width="100%">
-                <img src="image/apye.png" width="100%">
-            </section>
-        </main>
-        <footer>
-            <p>© 2025 Sokhavattey | All rights reserved.</p>
-        </footer>
-    </body>
+        <section>
+            <h2>Asia Pacific Youth Exchange 2023</h2>
+            <h3>Delegate</h3>
+            <p>A regional youth program that responds to the global need of actively engaging youth in localized SDGs
+                initiatives: A two-day intensive leadership workshop, local Immersion: Teams work to enhance solutions
+                for existing challenges based on the SDGs by simulating social business proposals and prototype-making.
+            </p>
+            <img src="image/apye-ministry.png" width="100%">
+            <img src="image/apye.png" width="100%">
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Sokhavattey | All rights reserved.</p>
+    </footer>
+</body>
+
 </html>

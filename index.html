@@ -3,7 +3,35 @@
 
 <head>
     <title>Welcome | Lana's Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        :root {
+            --bg-color: #fdf6f0;
+            /* soft beige */
+            --text-color: #4b3f39;
+            /* warm brown-gray */
+            --accent-color: #f8c8c4;
+            /* soft pastel pink */
+            --link-color: #d48c86;
+            /* dusty rose */
+            --font-family: 'Georgia', serif;
+            --font-weight: bold;
+        }
+
+        .text-color-pr {
+            color: var(--link-color);
+
+            .text-bold {
+                font-weight: var(--font-weight)
+            }
+        }
+    </style>
+
+
+
+
     <!-- <style> 
         h1, p, a {
             text-align:center;
@@ -27,10 +55,10 @@
     <header>
         <h1>Welcome to my Portfolio!</h1>
         <p>A space built up to show what I do.</p>
-        <img src="image/cat.png" style="width:30%; align-items: center;" >
+        <img src="image/cat.png" style="width:30%; align-items: center;">
 
         <nav>
-            <a href="index.html">Home</a>
+            <a class="text-color-pr" href="index.html">Home</a>
             <a href="about.html">About Me :)</a>
             <a href="work.html">Work Experience</a>
             <a href="exchange.html">Programs I Joined</a>
@@ -39,7 +67,7 @@
         </nav>
     </header>
     <main>
-        
+
         <section>
             <h2>Latest Posts</h2>
             <p>My lastest blog posts ! <a href="blog.html">[Details]</a></p>
@@ -65,4 +93,5 @@
         <p>© 2025 Sokhavattey | All rights reserved.</p>
     </footer>
 </body>
+
 </html>
